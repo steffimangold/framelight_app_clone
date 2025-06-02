@@ -1,0 +1,67 @@
+{
+  "expo": {
+    "name": "Framelight",
+    "slug": "framelight_app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo-1080.png",
+    "scheme": "movies",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/logo-1080.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#12232F"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.steffimangold.framelight"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/logo-1080.png",
+        "backgroundColor": "#12232F"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.framelight_app",
+      "versionCode": 1,
+      "googleServicesFile": "./google-services.json"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/logo-1080.png"
+    },
+    "plugins": [
+      "@react-native-firebase/app",
+      "@react-native-firebase/auth",
+      "expo-router",
+      "expo-image-picker",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow $(PRODUCT_NAME) to access your photos."
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/logo-1080.png",
+          "imageWidth": 1080,
+          "resizeMode": "contain",
+          "backgroundColor": "#12232F"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "f038f5c0-93bd-4593-b17a-ac8f15bca48d"
+      }
+    }
+  }
+}
