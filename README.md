@@ -1,3 +1,5 @@
+![Framelight App (1)](https://github.com/user-attachments/assets/374f59cb-3ad4-48c2-a4ca-1d4da06e23c1)
+
 # Framelight 🎬
 
 Framelight is a mobile app that gamifies the movie and TV watching experience. Users can collect digital movie tickets for a nostalgic cinema feel, track TV series episode by episode, and never lose track of their watching progress again.
